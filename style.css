@@ -91,6 +91,7 @@ label {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 .select-input {
@@ -119,11 +120,14 @@ label {
     width: 100%;
     cursor: pointer;
     font-size: 1rem;
-    background: none;
+    background: var(--color--5);
     margin: 0 -5px 5px;
     color: var(--color--6);
     outline: none !important;
     border: none;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 1%;
 }
 
 p {
@@ -144,6 +148,12 @@ p {
     font-weight: 600;
     font-size: 1rem;
     box-shadow: 0px 5px 20px var(--color--4);
+    cursor: pointer;
+}
+
+.exchange:hover {
+    box-shadow: 0px 5px 20px 5px var(--color--4);
+    transition: 0.25s;
 }
 
 @keyframes bgAnimation {
