@@ -53,6 +53,7 @@ body{
     color: var(--color--4);
     text-shadow: 0px 2px 5px var(--color--4);
     text-transform: uppercase;
+    padding: 8px;
     margin-bottom: 15%;
     
 }
@@ -106,6 +107,7 @@ label {
     padding: 0 20px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-bottom: 16px;
 }
 
 .select-input:hover {
@@ -177,5 +179,29 @@ p {
     }
     100% {
         box-shadow: 11px 11px 21px var(--color--1) ;
+    }
+}
+
+@media (max-width: 1600px) {
+    .box {
+        width: 50%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .box {
+        width: 80%;
+        height: 90%;
+    }
+
+    .input {
+        max-height: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        padding: 10%;
     }
 }
