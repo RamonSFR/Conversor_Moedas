@@ -181,3 +181,15 @@ p {
         box-shadow: 11px 11px 21px var(--color--1) ;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .box {
+        width: 90%;
+        height: fit-content;
+        padding: 32px 16px;
+    }
+
+    label {
+        margin-bottom: 16px;
+    }
+}
